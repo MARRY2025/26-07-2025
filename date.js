@@ -1,5 +1,5 @@
 // Время
-var countDownDate = new Date("Jul 26, 0001 17:00:00").getTime();
+var countDownDate = new Date("Jul 26, 2000 17:00:00").getTime();
 
 var x = setInterval(function() {
 
@@ -22,6 +22,7 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
+
 
 
 
